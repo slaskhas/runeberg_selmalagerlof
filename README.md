@@ -58,7 +58,7 @@ Parameters are:
 * nanogpt_install
 * nanogpt_prepare
 * nanogpt_train
-* nanogpt_train_resume
+* nanogpt\_train\_resume
 * nanogpt_eval
 
 Optionally the parameter `bash`  may be used to drop into the container and run the script `/handle.sh` manually.
@@ -81,4 +81,24 @@ frun
 Somewhat jibberish, but still readable.
 Use parameter `nanogpt_train_resume` to improve the result.
 
+###License
 
+This code is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). nanoGPT code is not part of this repository but I want to mention that it is also using MIT license. 
+
+Regarding the actual material by Selma lagerlöf, this is from Project Runeberg: <pre>
+Project Runeberg is very careful to respect copyright
+held by authors, illustrators, and translators. 
+But when they have been dead for more than 70 years, 
+the copyright expires, 
+and we are free to publish their works.
+</pre>
+
+###Todo
+
+This was a quick hack to download and cleanup some data from Project Runeberg. A future task may be to add download script for Stridberg and many other authors from the same site.
+
+###acknowledgements
+[Project Runeberg](http://runeberg.org/) of course, and [Andrej
+karpathy](https://github.com/karpathy) for [nanoGPT](https://github.com/karpathy/nanoGPT) .
+
+##Claes Nygren 
