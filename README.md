@@ -9,7 +9,7 @@ The texts are part of the awesome [Project Runeberg](http://runeberg.org/).
 
 Project Runeberg (runeberg.org) is a volunteer effort to create free electronic editions of classic Nordic (Scandinavian) literature and make them openly available over the Internet.
 
-###Built With
+### Built With
 * Python
 * Docker
 * nanoGPT (optional)
@@ -81,7 +81,7 @@ frun
 Somewhat jibberish, but still readable.
 Use parameter `nanogpt_train_resume` to improve the result.
 
-###License
+### License
 
 This code is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). nanoGPT code is not part of this repository but I want to mention that it is also using MIT license. 
 
@@ -93,7 +93,7 @@ the copyright expires,
 and we are free to publish their works.
 </pre>
 
-###Todo
+### Todo
 
 This was a quick hack to download and cleanup some data from Project Runeberg. A future task may be to add download script for Stridberg and many other authors from the same site.
 
@@ -101,4 +101,4 @@ This was a quick hack to download and cleanup some data from Project Runeberg. A
 [Project Runeberg](http://runeberg.org/) of course, and [Andrej
 karpathy](https://github.com/karpathy) for [nanoGPT](https://github.com/karpathy/nanoGPT) .
 
-##Claes Nygren 
+## Claes Nygren 
