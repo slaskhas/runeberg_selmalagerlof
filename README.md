@@ -97,7 +97,7 @@ and we are free to publish their works.
 
 This was a quick hack to download and cleanup some data from Project Runeberg. A future task may be to add download script for Stridberg and many other authors from the same site.
 
-###acknowledgements
+### acknowledgements
 [Project Runeberg](http://runeberg.org/) of course, and [Andrej
 karpathy](https://github.com/karpathy) for [nanoGPT](https://github.com/karpathy/nanoGPT) .
 
