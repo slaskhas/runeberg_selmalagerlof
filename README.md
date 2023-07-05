@@ -16,11 +16,15 @@ Project Runeberg (runeberg.org) is a volunteer effort to create free electronic 
 
 ### Usage
 
+<pre>git clone https://github.com/slaskhas/runeberg_selmalagerlof.git
+cd runeberg_selmalagerlof</pre>
+
 alt 1:
 
-To simply run the download script:
-`python3 runeberg_selmalagerlof/runeberg_selmalagerlof.py
-`
+To simply install and run the download script:
+<pre>
+python3 runeberg_selmalagerlof/runeberg_selmalagerlof.py
+</pre>
 
 Each asset will end up in it's own textfile in current folder.
 Expect output like:
@@ -68,8 +72,13 @@ docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt_prepare  nanogpt_train
 docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt_eval
 </pre>
 
-Expect something like:
+After 500 itterations, expect something like:
 <pre>
-
+Det var bra lär den för och de var Oljänniskor bli bli
+mycket ända fram och tillbaka. Hon skulle då så lås aldrig rörde, att hennes bli många i upphärkarna, att lättre föjde
+frun
 </pre>
+Somewhat jibberish, but still readable.
+Use parameter `nanogpt_train_resume` to improve the result.
+
 
