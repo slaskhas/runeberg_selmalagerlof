@@ -80,6 +80,22 @@ frun
 </pre>
 Somewhat jibberish, but still readable.
 Use parameter `nanogpt_train_resume` to improve the result.
+<pre>
+docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt\_train\_resume
+docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt_eval
+</pre>
+After 10000 itterations you may get
+<pre>
+Men så tänkte jag: "Gå och dricker in på nytt och se!"
+
+Jag tänkte, att jag skulle bli övergiven, att detta var
+för jag hade alltid kommit i natt, så att jag kunde komma hit i
+tiden. Såg jag väl hur jag skulle ha kommit och att han
+därmed hade blivit sjuk, kunde jag inte finna sådant, som inte
+hade varit något hjärt än att få tala med mig om.
+</pre>
+
+Somewhat jibberish, but on a much higher level :-) .
 
 ### License
 
