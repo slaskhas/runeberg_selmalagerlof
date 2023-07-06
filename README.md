@@ -11,7 +11,7 @@ Project Runeberg (runeberg.org) is a volunteer effort to create free electronic 
 
 ### Built With
 * Python
-* Docker
+* Docker  (optional)
 * nanoGPT (optional)
 
 ### Usage
@@ -21,7 +21,7 @@ cd runeberg_selmalagerlof</pre>
 
 alt 1:
 
-To simply install and run the download script:
+To simply use the download script:
 <pre>
 python3 runeberg_selmalagerlof/runeberg_selmalagerlof.py
 </pre>
@@ -81,7 +81,7 @@ frun
 Somewhat jibberish, but still readable.
 Use parameter `nanogpt_train_resume` to improve the result.
 <pre>
-docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt\_train\_resume
+docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt_train_resume
 docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt_eval
 </pre>
 After 10000 iterations you may get
