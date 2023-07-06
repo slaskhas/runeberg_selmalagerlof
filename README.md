@@ -45,6 +45,14 @@ Use the included docker container def on linux or mac to download the content:
 docker run  -v `pwd`:/wrk -it  --rm  selma 
 </pre>
 
+alt 3:
+
+Use the pre-built container allwidgets/runeberg_selmalagerlof on dockerhub.
+
+<pre>
+docker run  -v `pwd`:/wrk -it  --rm  allwidgets/runeberg_selmalagerlof
+</pre>
+
 It's important to mount current directory as /wrk or the downloaded data will be gone once the container is deleted.
 
 ### Bonus : train nanoGPT using the downloaded data
