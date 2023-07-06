@@ -72,7 +72,7 @@ docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt_prepare  nanogpt_train
 docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt_eval
 </pre>
 
-After 500 itterations, expect something like:
+After 500 iterations, expect something like:
 <pre>
 Det var bra lär den för och de var Oljänniskor bli bli
 mycket ända fram och tillbaka. Hon skulle då så lås aldrig rörde, att hennes bli många i upphärkarna, att lättre föjde
@@ -84,7 +84,7 @@ Use parameter `nanogpt_train_resume` to improve the result.
 docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt\_train\_resume
 docker run  -v `pwd`:/wrk -it  --rm  selma nanogpt_eval
 </pre>
-After 10000 itterations you may get
+After 10000 iterations you may get
 <pre>
 Men så tänkte jag: "Gå och dricker in på nytt och se!"
 
